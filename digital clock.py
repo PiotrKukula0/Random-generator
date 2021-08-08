@@ -9,7 +9,8 @@ def quit(*args):
 
 def clock_time():
     time = datetime.datetime.now()
-    time = (time.strftime("%H:%M:%S"))
+    time = (time.strftime ("%Y-%m:-%d %H:%M:%S"))
+    #time = (time.strftime("%H:%M:%S"))
 
     txt.set(time)
 
